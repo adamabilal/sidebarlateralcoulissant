@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0023fe87fb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="styles.css" media="all" rel="stylesheet" type="text/css" />
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="sideNavigation" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Features</a>
+        <a href="#">Contact Us</a>
+      </div>
+       
+      <nav class="topnav">
+        <a href="#" onclick="openNav()">
+          <svg width="30" height="30" id="icoOpen">
+              <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+              <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+              <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+          </svg>
+        </a>
+      </nav>
+       
+      <div id="main">
+      <!-- Add all your websites page content here  -->
+     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi perferendis nemo delectus, veniam nihil numquam molestias soluta sed excepturi inventore accusamus expedita odit? Consequatur obcaecati placeat molestias sapiente eum quod!
+      Repellendus suscipit sunt obcaecati expedita quidem laudantium perspiciatis sapiente veniam, incidunt saepe iure sed tenetur neque quasi deleniti soluta culpa dolore repellat! Et dolor sit ut molestias iusto earum eum?
+      Saepe necessitatibus perferendis quam veritatis aut inventore, consectetur amet sapiente sit, vero voluptates error, vel cupiditate ad blanditiis culpa adipisci. Consequatur, vero sunt ullam praesentium earum a quod alias assumenda!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint modi architecto ex perferendis eligendi fuga quo hic! Labore obcaecati consequuntur quod nesciunt aliquid autem sunt ab minus blanditiis, vero eaque?
+    Quibusdam alias eius officiis, quasi necessitatibus deserunt, excepturi qui vel, omnis exercitationem illo obcaecati? Sunt numquam eos a aliquid temporibus beatae, animi at, error sit cupiditate corporis. Suscipit, laudantium qui.
+    Sequi deleniti hic autem ea ducimus rerum quibusdam? Neque fugiat ipsa repudiandae nemo nisi architecto optio eum ipsum aliquam doloremque aspernatur voluptate expedita modi, sit odit delectus vero, quis atque.
+    Quasi, fugit suscipit dolor asperiores voluptatibus nobis? Beatae vero autem totam, eius, ut maiores blanditiis nihil ullam ratione voluptatibus dolores qui aspernatur? Atque maxime delectus voluptates quaerat, nobis dolores perferendis.</p>
+    <img src="images/obama.jpeg" alt="">
+
+      </div>
+      <script>
+        function openNav() {
+            document.getElementById("sideNavigation").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+         
+        function closeNav() {
+            document.getElementById("sideNavigation").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+        </script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
